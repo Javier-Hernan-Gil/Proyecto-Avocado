@@ -6,7 +6,6 @@ In this document you must describe the tables, collections or files that you are
 
 El dataset avocados.csv representa los datos de escaneo minorista semanales entre los años 2015 a 2018 para el volumen minorista nacional (unidades) y el precio. Los datos de escaneo minorista provienen directamente de las cajas registradoras de los minoristas en función de las ventas minoristas reales de aguacates Hass.
 
-![Dataset](https://drive.google.com/uc?export=view&id=1ugpRfZ7DXMLZPpATxvtZfCUIMv871b0s)
 ## Table 1
 
 Here you must describe the table
