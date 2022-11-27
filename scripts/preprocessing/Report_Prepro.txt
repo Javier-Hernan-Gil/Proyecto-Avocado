@@ -1,0 +1,10 @@
+1. Identificar caracteristicas (Columnas) con datos faltantes.
+2. Filtrar las columnas para establecer los elementos que componen dicha serie y luego realizar un conteo de cada elemento permitiendo reconocer valores con ruido ó inapropiados:
+3. La selección de los datos finales luego de realizar la limpieza del dataset está basada en los siguientes aspectos:
+    La caracteristica 'Unnamed' se elimnan ya que es un código de referencia.
+    La caracteristica 'Total Bags, Small Bags, Large Bags y Xlarge Bags no son variables de interés según los objetivos planteados.
+
+2. Transformación de los datos
+
+Con el análisis obtenido en el proceso de limpieza y filtrado, teniendo como referencia los objetivos del proyecto se observa que los datos están completos y sin ruido, 
+únicamente se realiza un cambio en el nombre de las características para facilitar su lectur
