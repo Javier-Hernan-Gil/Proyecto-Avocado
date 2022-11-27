@@ -66,6 +66,8 @@ Para el desarrollo se plantean algunas actividades generales en las siguientes f
 ## Architecture
 
 * Data
+  Losa datos fueron obtenidos de la página oficial de HASS AVOCADO BOARDhttp://www.hassavocadoboard.com/retail/volume-and-price-data
+  dichos datos se encuentran en formato CSV y no están procesados.
   * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
 * Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
   * all the data, 
