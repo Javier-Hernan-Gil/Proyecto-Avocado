@@ -1,12 +1,10 @@
 # Data and Feature Definitions
 
-This document provides a central hub for the raw data sources, the processed/transformed data, and feature sets. More details of each dataset is provided in the data summary report. 
+Este documento proporciona un eje central para las fuentes de datos sin procesar, los datos procesados/transformados y los conjuntos de funciones. Se proporcionan más detalles de cada conjunto de datos en el informe de resumen de datos.
 
-For each data, an individual report describing the data schema, the meaning of each data field, and other information that is helpful for understanding the data is provided. If the dataset is the output of processing/transforming/feature engineering existing data set(s), the names of the input data sets, and the links to scripts that are used to conduct the operation are also provided. 
+Para cada dato, se proporciona un informe individual que describe el esquema de datos, el significado de cada campo de datos y otra información que es útil para comprender los datos. Si el conjunto de datos es el resultado de los conjuntos de datos existentes de procesamiento/transformación/ingeniería de características, también se proporcionan los nombres de los conjuntos de datos de entrada y los enlaces a los scripts que se utilizan para realizar la operación.
 
-For each dataset, the links to the sample datasets in the _**Data**_ directory are also provided. 
-
-_**For ease of modifying this report, placeholder links are included in this page, for example a link to dataset 1, but they are just placeholders pointing to a non-existent page. These should be modified to point to the actual location.**_
+Para cada conjunto de datos, también se proporcionan los enlaces a los conjuntos de datos de muestra en el directorio de datos  
 
 ## Raw Data Sources
 
@@ -29,7 +27,5 @@ _**For ease of modifying this report, placeholder links are included in this pag
 | Feature Set Name | Input Dataset(s)   | Feature Engineering Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
 | Feature Set 1 | [Dataset1](link/to/dataset1/report), [Processed Dataset2](link/to/dataset2/report) | [R_Script2.R](link/to/R/script/file/in/Code) | [Feature Set1 Report](link/to/report1)|
-| Feature Set 2 | [Processed Dataset2](link/to/dataset2/report) |[SQL_Script2.sql](link/to/sql/script/file/in/Code) | [Feature Set2 Report](link/to/report2)|
 
 * Feature Set1 summary. <Provide detailed description of the feature set, such as the meaning of each feature. More detailed information about the feature set should be in the Feature Set1 Report.>
-* Feature Set2 summary. <Provide detailed description of the feature set, such as the meaning of each feature. More detailed information about the feature set should be in the Feature Set2 Report.> 
