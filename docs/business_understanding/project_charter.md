@@ -1,8 +1,9 @@
 # Project Charter
 
 ## Business background
+HAB es la única organización de aguacate que equipa a toda la industria global para el éxito al recolectar, enfocar y distribuir inversiones para mantener y expandir la demanda de aguacates en los Estados Unidos.
 
-* Who is the client, what business domain the client is in.
+HAB proporciona a la industria datos consolidados de suministro y mercado, realiza investigaciones sobre nutrición, educa a los profesionales de la salud y reúne a personas de todos los rincones de la industria para trabajar colectivamente hacia un crecimiento que beneficie a todos. La organización también recauda y reasigna fondos a California y asociaciones de importadores para beneficiar a países de origen específicos en la promoción de sus marcas de aguacate a clientes y consumidores en todo Estados Unidos.
 * What business problems are we trying to address?
 
 ## Scope
