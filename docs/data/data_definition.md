@@ -12,9 +12,9 @@ _**For ease of modifying this report, placeholder links are included in this pag
 
 | Dataset Name | Original Location   | Destination Location  | Data Movement Tools / Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | -----: |
-| Dataset 1 | los datos fueron extraidos de https://hassavocadoboard.com/ | Luego de realizar la primera fase del proyecto los datos fueron ubicados en una carpeta Drive | [Notebook](https://colab.research.google.com/drive/1uAxEuVDdEszRSOs4Uuo7l8dQY3mCPZCl?usp=sharing) | [Dataset 1 Report](data_dictionary.md)|
+| Dataset 1 | los datos fueron extraidos de https://hassavocadoboard.com/ | Luego de realizar la primera fase del proyecto los datos fueron ubicados en una carpeta Drive [Dataset](https://docs.google.com/spreadsheets/d/1fHdpdgPA7kLffB1pF8g76FjyZfAGQoTUp6dNY12TcJc/edit?usp=sharing)| [Notebook](https://colab.research.google.com/drive/1uAxEuVDdEszRSOs4Uuo7l8dQY3mCPZCl?usp=sharing) | [Dataset 1 Report](data_dictionary.md)|
 
-* Dataset1 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset1 Report.>
+* Para Mayor información del Dataset consulte [Sumario del Dataset](data_dictionary.md)
 
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
