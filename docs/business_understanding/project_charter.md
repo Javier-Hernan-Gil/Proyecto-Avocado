@@ -28,8 +28,7 @@ El proyecto de análisis de datos sobre Aguacate Hass en Estados Unidos se basa 
 El Informe de datos de categoría proporciona datos procesables a la industria sobre cuándo, dónde y cuánto aguacate vende el canal minorista, tanto en libras como en dólares. Su objetivo es rastrear y monitorear el desempeño del aguacate Hass en el comercio minorista en los Estados Unidos, dividido en 8 regiones separadas y 45 mercados individuales
 
 ## Plan
-* Phases (milestones), timeline, short description of what we'll do in each phase.
-Metas del Proyecto
+**Metas del Proyecto**
 El desarrollo del proyecto está enmarcado en tres fases, en cada una de ellas se realizan una serie de actividades que permiten alcanzar los objetivos del proyecto. La información central para realizar dicho proyecto, se basa en un Dataset que contiene el precio promedio por unidad de aguacáte clase Hass en algunas regiones y/o cidudades de Estados Unidades entre el período 2015-01-04 y 2018-03-25, entre otras características.
 
 ## **Objetivos del Proyecto**
@@ -68,22 +67,13 @@ Para el desarrollo se plantean algunas actividades generales en las siguientes f
 * Data
   Losa datos fueron obtenidos de la página oficial de HASS AVOCADO BOARDhttp://www.hassavocadoboard.com/retail/volume-and-price-data
   dichos datos se encuentran en formato CSV y no están procesados.
-  * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
-* Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
-  * all the data, 
-  * after some pre-aggregation on-prem,
-  * Sampled data enough for modeling 
+  El moviemnto de los datos seran trasladados con Google Colab y luego de su procesamiento y analisis se adjuntaran a una carpeta en Drive.
+  
+  Las recursos y herramientas y recursos para el análisis/almacenamiento de datos son:
 
-* What tools and data storage/analytics resources will be used in the solution e.g.,
-  * ASA for stream aggregation
-  * HDI/Hive/R/Python for feature construction, aggregation and sampling
-  * AzureML for modeling and web service operationalization
-* How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
-  * How will the customer use the model results to make decisions
-  * Data movement pipeline in production
-  * Make a 1 slide diagram showing the end to end data flow and decision architecture
-    * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
-
+Google Cloud para el almAcenamiento de los datos en cada una de las fases
+Python y Google Colab para construcción, agregación y muestreo de características
+AzureML para modelado y operacionalización de servicios web
+  
 ## Communication
-* How will we keep in touch? Weekly meetings?
-* Who are the contact persons on both sides?
+* Para el desarrollo de las fases 1  y 2, se realizará una (1) reunión semanal con los representantes de la empresa y el equipo Data Science, permitiendo un mayor entendimiento del negocio
