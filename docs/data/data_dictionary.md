@@ -1,5 +1,9 @@
 # Data Dictionary
+![](https://drive.google.com/uc?export=view&id=1ugpRfZ7DXMLZPpATxvtZfCUIMv871b0s)
 
+HAB es la única organización de aguacate que equipa a toda la industria global para el éxito al recolectar, enfocar y distribuir inversiones para mantener y expandir la demanda de aguacates en los Estados Unidos.
+
+HAB proporciona a la industria datos consolidados de suministro y mercado, realiza investigaciones sobre nutrición, educa a los profesionales de la salud y reúne a personas de todos los rincones de la industria para trabajar colectivamente hacia un crecimiento que beneficie a todos. La organización también recauda y reasigna fondos a California y asociaciones de importadores para beneficiar a países de origen específicos en la promoción de sus marcas de aguacate a clientes y consumidores en todo Estados Unidos.
 # Database Avocado.csv
 
 El dataset avocados.csv representa los datos de escaneo minorista semanales entre los años 2015 a 2018 para el volumen minorista nacional (unidades) y el precio. Los datos de escaneo minorista provienen directamente de las cajas registradoras de los minoristas en función de las ventas minoristas reales de aguacates Hass.
