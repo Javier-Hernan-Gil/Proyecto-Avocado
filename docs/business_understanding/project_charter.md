@@ -22,14 +22,11 @@ HAB proporciona a la industria datos consolidados de suministro y mercado, reali
 		* Business contact:Juan Sebástian Malagon - Juan Sebastian Lara
 	
 ## Metrics
-* What are the qualitative objectives? (e.g. reduce user churn)
-* What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
-* Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
-* What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
-* How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
+
 El proyecto de análisis de datos sobre Aguacate Hass en Estados Unidos se basa en los datos obtenidos por HAB, la cual apoya a los proveedores de aguacate con programas de datos estratégicos, de calidad, de oferta y de demanda para que puedan tomar mejores decisiones al administrar su negocio. proporcionan información que es vital para el éxito de la industria, ya sean datos de inventario a corto plazo o datos de consumidores a largo plazo que ayudan a todos en la cadena de suministro a vigilar al consumidor y sus impulsores de compra.
 
 El Informe de datos de categoría proporciona datos procesables a la industria sobre cuándo, dónde y cuánto aguacate vende el canal minorista, tanto en libras como en dólares. Su objetivo es rastrear y monitorear el desempeño del aguacate Hass en el comercio minorista en los Estados Unidos, dividido en 8 regiones separadas y 45 mercados individuales
+
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
 Metas del Proyecto
@@ -41,7 +38,7 @@ El desarrollo del proyecto está enmarcado en tres fases, en cada una de ellas s
 
 * Entrenar un modelo autorregresivo que permita predecir la variable 'precio promedio por unidad' determinando el valor que tomará la variable en el futuro, cuya evaluación se sustentará en una validación cruzada mediante sliding window y forward chaining validation
 
-##**Fases del Proyecto**
+## **Fases del Proyecto**
 Para el desarrollo se plantean algunas actividades generales en las siguientes fases:
 ### **Fase 1. Selección y análisis exploratorio de los datos** 
 
