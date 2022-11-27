@@ -28,7 +28,8 @@ El proyecto de análisis de datos sobre Aguacate Hass en Estados Unidos se basa 
 El Informe de datos de categoría proporciona datos procesables a la industria sobre cuándo, dónde y cuánto aguacate vende el canal minorista, tanto en libras como en dólares. Su objetivo es rastrear y monitorear el desempeño del aguacate Hass en el comercio minorista en los Estados Unidos, dividido en 8 regiones separadas y 45 mercados individuales
 
 ## Plan
-**Metas del Proyecto**
+
+## **Metas del Proyecto**
 El desarrollo del proyecto está enmarcado en tres fases, en cada una de ellas se realizan una serie de actividades que permiten alcanzar los objetivos del proyecto. La información central para realizar dicho proyecto, se basa en un Dataset que contiene el precio promedio por unidad de aguacáte clase Hass en algunas regiones y/o cidudades de Estados Unidades entre el período 2015-01-04 y 2018-03-25, entre otras características.
 
 ## **Objetivos del Proyecto**
@@ -65,7 +66,7 @@ Para el desarrollo se plantean algunas actividades generales en las siguientes f
 ## Architecture
 
 * Data
-  Losa datos fueron obtenidos de la página oficial de HASS AVOCADO BOARDhttp://www.hassavocadoboard.com/retail/volume-and-price-data
+  Losa datos fueron obtenidos de la página oficial de HASS AVOCADO BOARD  http://www.hassavocadoboard.com/retail/volume-and-price-data
   dichos datos se encuentran en formato CSV y no están procesados.
   El moviemnto de los datos seran trasladados con Google Colab y luego de su procesamiento y analisis se adjuntaran a una carpeta en Drive.
   
