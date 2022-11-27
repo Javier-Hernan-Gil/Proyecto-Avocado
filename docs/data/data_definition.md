@@ -12,11 +12,9 @@ _**For ease of modifying this report, placeholder links are included in this pag
 
 | Dataset Name | Original Location   | Destination Location  | Data Movement Tools / Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | -----: |
-| Dataset 1 | Brief description of its orignal location | Brief description of its destination location | [script1.py](link/to/python/script/file/in/Code) | [Dataset 1 Report](link/to/report1)|
-| Dataset 2 | Brief description of its orignal location | Brief description of its destination location | [script2.R](link/to/R/script/file/in/Code) | [Dataset 2 Report](link/to/report2)|
+| Dataset 1 | los datos fueron extraidos de https://hassavocadoboard.com/ | Luego de realizar la primera fase del proyecto los datos fueron ubicados en una carpeta Drive | [script.ipy]([link/to/python/script/file/in/Code](https://colab.research.google.com/drive/1uAxEuVDdEszRSOs4Uuo7l8dQY3mCPZCl?usp=sharing)) | [Dataset 1 Report](link/to/report1)|
 
 * Dataset1 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset1 Report.>
-* Dataset2 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset2 Report.> 
 
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
