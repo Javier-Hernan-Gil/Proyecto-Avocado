@@ -1,5 +1,5 @@
 # Project Charter
-
+![](https://drive.google.com/uc?export=view&id=1ugpRfZ7DXMLZPpATxvtZfCUIMv871b0s)
 ## Business background
 HAB es la única organización de aguacate que equipa a toda la industria global para el éxito al recolectar, enfocar y distribuir inversiones para mantener y expandir la demanda de aguacates en los Estados Unidos.
 
