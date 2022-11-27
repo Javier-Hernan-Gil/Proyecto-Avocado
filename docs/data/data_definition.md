@@ -12,7 +12,7 @@ _**For ease of modifying this report, placeholder links are included in this pag
 
 | Dataset Name | Original Location   | Destination Location  | Data Movement Tools / Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | -----: |
-| Dataset 1 | los datos fueron extraidos de https://hassavocadoboard.com/ | Luego de realizar la primera fase del proyecto los datos fueron ubicados en una carpeta Drive | [script.ipy]([link/to/python/script/file/in/Code](https://colab.research.google.com/drive/1uAxEuVDdEszRSOs4Uuo7l8dQY3mCPZCl?usp=sharing)) | [Dataset 1 Report](link/to/report1)|
+| Dataset 1 | los datos fueron extraidos de https://hassavocadoboard.com/ | Luego de realizar la primera fase del proyecto los datos fueron ubicados en una carpeta Drive | [script.ipy](https://colab.research.google.com/drive/1uAxEuVDdEszRSOs4Uuo7l8dQY3mCPZCl?usp=sharing) | [Dataset 1 Report](link/to/report1)|
 
 * Dataset1 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset1 Report.>
 
