@@ -12,7 +12,7 @@ HAB proporciona a la industria datos consolidados de suministro y mercado, reali
 * El cliente tendra el acceso al modelo final mediante un servicio Web ó aplicación Android para dispositivos móviles.
 
 ## Personnel
-* Who are on this project:
+
 	* Microsoft:
 		* Project lead : Javier Hernan Gil
 		* Data scientist(s) : Emiliano Rodríguez
