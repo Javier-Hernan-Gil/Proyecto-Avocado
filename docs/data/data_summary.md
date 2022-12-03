@@ -52,8 +52,7 @@ Region: Ciudad o región de la observación
 Los códigos de búsqueda de productos (PLU) de la tabla son solo para aguacates Hass, otra clase de aguacates no fueron consignados en esta tabla.
 
 ## Relación entre variables explicativas y variable objetivo
-
-De acuerdo a los datos del dataframe "avocado.cvs" procedemos a construir una serie de tiempo teniendo como referencia las caracterisiticas fecha y precio promedio.
+Las variables 'Date', 'AveragePrice', 'Total Volume', '4046', '4225', '4770', 'type' y 'región' son de gran importancia en este análisis, ya que están ligadas directamente a los objetivos del proyecto. A continuación se muestran las tablas de frecuencia de dichas características.De acuerdo a los datos del dataframe "avocado.cvs" procedemos a construir una serie de tiempo teniendo como referencia las caracterisiticas fecha y precio promedio.
 
 
 
