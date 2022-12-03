@@ -1,4 +1,4 @@
-# Infrastructure
+# Infraestructura
 
 Se utliza Google Colab con (GPU) del backend de Google Compute Engne que utiliza Python 3.
 
