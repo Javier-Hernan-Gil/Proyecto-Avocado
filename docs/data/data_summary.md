@@ -1,4 +1,4 @@
-# Data Report
+# Repor de Datos
 
 En esta fase se realizará una exploración inicial del dataset que permita conocer algunos aspectos relevantes de los datos, permitiendo una mayor comprensión del proceso de venta del aguacáte en Estados Unidos. La siguiente tabla muestra algunas estadísticas descriptivas del conjunto de datos, teniendo en cuenta únicamente las variables númericas.
 
