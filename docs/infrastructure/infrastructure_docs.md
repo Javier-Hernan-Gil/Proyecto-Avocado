@@ -5,7 +5,7 @@ Se utliza Google Colab con (GPU) del backend de Google Compute Engne que utiliza
 RAM: 1.07 GB/12.68 GB
 Disco : 22.64 GB/78.19 GB
 
-Se debe instarkar las siguientes librerias:
+Se debeN instaLar las siguientes librerias:
 
 Python 3.8.15
 Pandas 1.3.5
