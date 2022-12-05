@@ -17,7 +17,7 @@ Para cada conjunto de datos, también se proporcionan los enlaces a los conjunto
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
-| Processed Dataset 1 | [Dataset1](https://docs.google.com/spreadsheets/d/1fHdpdgPA7kLffB1pF8g76FjyZfAGQoTUp6dNY12TcJc/edit?usp=sharing) |[Notebook](https://colab.research.google.com/drive/1wCf37UxrxbBZgMYVwoMkG4CdeYVyd0kP?usp=sharing)| [Reporte Prepro](/scripts/preprocessing/Report_Prepro.txt)|
+| Processed Dataset 1 | [Dataset1](https://docs.google.com/spreadsheets/d/1fHdpdgPA7kLffB1pF8g76FjyZfAGQoTUp6dNY12TcJc/edit?usp=sharing) |[Notebook](https://colab.research.google.com/drive/1wCf37UxrxbBZgMYVwoMkG4CdeYVyd0kP?usp=sharing)| [Reporte Prepro](/scripts/preprocessing/Report_feature_extraction)|
 
 * Processed Data1 summary. Se realiza el proceso de selección,limpieza y transformación de los de los datos, identificando los datos faltantes, valores incorrectos o datos con algún tipo de ruido.
 
