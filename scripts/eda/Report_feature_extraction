@@ -1,0 +1,31 @@
+Energia
+La energia se define como la cuatificación sumada de cada uno de los componenetes de la serie
+
+Energia_Precio_Promedio: 39033.05639999997
+Energia_Volumen_Total: 2.3084833879943245e+17
+Energia_PLU4046: 3.076715022861496e+16
+Energia_PLU_4225: 2.8047667485532404e+16
+Energia_PLU_4770: 220257157988808.
+
+
+Kurtosis
+Es una medida de normalidad que permite concoer el nivel de aproximación gaussiana de la distribución de la serie.
+
+Curtosis_Precio_Promedio: 0.3251958506534338
+Curtosis_Volumen_Total: 92.10445777646089
+Curtosis_PLU4046: 86.80911256453513
+Curtosis_PLU_4225: 91.94902196597445
+Curtosis_PLU_4770: 132.56344086646533
+
+Número de picos
+Cuenta el numero de piscos en una serie de tiempo (donde x-1 y x+1 son menores a x), es un descirptor completo que permite entender la frecuencia y varianza de la serie
+
+#Coeficientes de fourier
+
+Permite entender la relaciones frecuenciales y la composicion de la serie en cuestión, util para el analisis de fenomenos periodicos y semiperiodicos.s
+
+Coeficientes 1 y 2 de Número de Precio_Promedio: [('attr_"real"__coeff_1', 465.8721297488986), ('attr_"real"__coeff_2', -470.0036535298934)]
+Coeficientes 1 y 2 de Volumen_Total: [('attr_"real"__coeff_1', -74325467.3956503), ('attr_"real"__coeff_2', 266620956.8654315)]
+Coeficientes 1 y 2 de PLU4046: [('attr_"real"__coeff_1', 231778071.1695609), ('attr_"real"__coeff_2', 160570439.6071058)]
+Coeficientes 1 y 2 de PLU_4225: [('attr_"real"__coeff_1', 5628958.840840768), ('attr_"real"__coeff_2', -21444021.576610237)]
+Coeficientes 1 y 2 de PLU_4770: [('attr_"real"__coeff_1', -36997365.75229742), ('attr_"real"__coeff_2', -9243347.191970175)]
