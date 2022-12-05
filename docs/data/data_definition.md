@@ -26,6 +26,6 @@ Para cada conjunto de datos, también se proporcionan los enlaces a los conjunto
 
 | Feature Set Name | Input Dataset(s)   | Feature Engineering Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
-| Feature Set 1 | [Dataset1](https://docs.google.com/spreadsheets/d/1fHdpdgPA7kLffB1pF8g76FjyZfAGQoTUp6dNY12TcJc/edit?usp=sharing),(link/to/dataset2/report) | [Notebook](https://colab.research.google.com/drive/1wCf37UxrxbBZgMYVwoMkG4CdeYVyd0kP?usp=sharing)|
+| Feature Set 1 | [Dataset1](https://docs.google.com/spreadsheets/d/1fHdpdgPA7kLffB1pF8g76FjyZfAGQoTUp6dNY12TcJc/edit?usp=sharing) | [Notebook](https://colab.research.google.com/drive/1wCf37UxrxbBZgMYVwoMkG4CdeYVyd0kP?usp=sharing)|
 
 * Feature Set1 summary. <Provide detailed description of the feature set, such as the meaning of each feature. More detailed information about the feature set should be in the Feature Set1 Report.>
