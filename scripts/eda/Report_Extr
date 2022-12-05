@@ -4,7 +4,7 @@
 
 from tsfresh import extract_features, feature_extraction
 
-"""## Energia
+""" ## Energia
 
 La energia se define como la cuatificación sumada de cada uno de los componenetes de la serie, claculada como: 
 
