@@ -13,6 +13,9 @@ Esta plantilla proporciona las siguientes carpetas:
 - packagename: coloque el código fuente (clases y funciones) en esta carpeta.
 - docs: coloque la documentación en esta carpeta.
 - scripts: esta carpeta debe contener los scripts/cuadernos que se ejecutarán.
+- app.py Proporciona la estructura para realizar el despliegue en streamlit
+- utils.py Proporciona los paquetes y funciones a utilizar
+- Data encuentra los archivos .csv para realizar la prueba del despliegue en streamlit cloud
 
 La implementación puede ser encontrada en https://javier-hernan-gil-predicci-n-precio-del-aguacate--st-app-s51az9.streamlit.app/
 
