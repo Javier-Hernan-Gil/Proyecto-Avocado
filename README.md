@@ -11,8 +11,8 @@ Necesitará herramientas como Anaconda, Streamlit, entre otras para la gestión 
 Esta plantilla proporciona las siguientes carpetas:
 
 - packagename: coloque el código fuente (clases y funciones) en esta carpeta.
--docs: coloque la documentación en esta carpeta.
--scripts: esta carpeta debe contener los scripts/cuadernos que se ejecutarán.
+- docs: coloque la documentación en esta carpeta.
+- scripts: esta carpeta debe contener los scripts/cuadernos que se ejecutarán.
 
 La implementación puede ser encontrada en https://javier-hernan-gil-predicci-n-precio-del-aguacate--st-app-s51az9.streamlit.app/
 
