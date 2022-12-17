@@ -5,7 +5,7 @@ Se utIliza Google Colab con (GPU) del backend de Google Compute Engne que utiliz
 RAM: 1.07 GB/12.68 GB
 Disco : 22.64 GB/78.19 GB
 
-Se debeN instaLar las siguientes librerias:
+Se deben instaLar las siguientes librerias:
 
 * Python 3.8.15
 * Pandas 1.3.5
@@ -13,3 +13,4 @@ Se debeN instaLar las siguientes librerias:
 * seaborn 0.11.2
 * plotly 0.11.2
 * scipy 0.11.2
+Para el despligue fue necesario utilizar Anaconda Navigator y Streamlit CLoud
