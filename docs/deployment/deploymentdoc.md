@@ -6,3 +6,4 @@ In this folder you can add deployment documentation, including
 * Package documentation (e.g. sphinx).
 * Dashboard documentation.
 * Any other documentation depending on the deployment kind.
+![](https://drive.google.com/file/d/16HH3LvDvSC1BcaKRLO_nY8o3nib9U80k/view?usp=sharing)
