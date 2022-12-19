@@ -2,17 +2,16 @@
 
 El modelo final que se reporta es un perceptrón multicapa para regresión, el cuál  tiene las siguientes características:
 
-El perceptrón multicapa esta compuesto por por una capa de entrada, una capa de salida y n capas ocultas entremedias.
+El perceptrón multicapa esta compuesto  por una capa de entrada, una capa de salida y k capas ocultas entremedias.
 
-En el perceptrón multicapa se pueden diferenciar una 2 fases:
+En el perceptrón multicapa se distinguen dos etapas importantes:
 
-Propagación en la que se calcula el resultado de salida de la red desde los valores de entrada hacia delante.
-Aprendizaje en la que los errores obtenidos a la salida del perceptrón se van propagando hacia atrás (backpropagation) con el objetivo de modificar los pesos de las conexiones para que el valor estimado de la red se asemeje cada vez más al real, este aproximación se realiza mediante la función gradriente del error.
+- Propagación en la que se calcula el resultado de salida de la red desde los valores de entrada hacia delante.
 
-Para este caso las entradas para este modelo son variables que ayudaran a predecir el precio promedio del aguacate, que era lo que se buscaba al aplicar, este tipo de red neuronal.
+- Aprendizaje en la que los errores obtenidos a la salida del perceptrón se van propagando hacia atrás (backpropagation) con el objetivo de modificar los pesos de las conexiones para que el valor estimado de la red. 
 
 ## Data
-Los datos que se reportan para la realización del proyecto provienen del   escaneo de minorista semanales entre los años 2015 a 2018 para el volumen minorista nacional (unidades) y el precio. Los datos de escaneo minorista provienen directamente de las cajas registradoras de los minoristas en función de las ventas minoristas reales de aguacates Hass.
+Los datos que se reportan para la realización del proyecto provienen del  escaneo de minorista semanales entre los años 2015 a 2018 para el volumen minorista nacional (unidades) y el precio. Los datos de escaneo minorista provienen directamente de las cajas registradoras de los minoristas en función de las ventas minoristas reales de aguacates Hass.
 ## Features
 
 Las carácterísticas princnipales que se usraón para poder realizar la tarea de predicción con el perceptrón multicapa para regresión, fueron:
@@ -29,7 +28,7 @@ Los códigos de búsqueda de productos (PLU) de la tabla son solo para aguacates
 Las características Total Bags, Small Bags, Large Bags y Xlarge Bags corresponde al número de bolsas de aguacates vendidos en la fecha correspondiente.
 
 ## Algorithm
-La tare que se pretendía realizar pertence al aprendizaje supervisado. Se deseaba como bien se ha mencionado antes, predecir a partir de algunas características de interés, ya mencionadas, el precio promedio del aguacate.  El algorítmo que se aplicó fue:
+La tarea que se pretendía realizar pertence al aprendizaje supervisado. Se deseaba como bien se ha mencionado antes, predecir a partir de algunas características de interés, ya mencionadas, el precio promedio del aguacate.  El algorítmo que se aplicó usando python fue:
 model = MLPRegressor(solver = 'lbfgs',
                    activation = 'relu',
                    hidden_layer_sizes=(5,10, 25, 100,200),
@@ -39,4 +38,4 @@ model = MLPRegressor(solver = 'lbfgs',
                    random_state=1234)
 
 ## Results
-Los resultados de haber aplicado nuestro modelo de red neuronal perceptrón multicapa para regrsión, podemos decir que son resultados satisfactorios, dado que el observar las métricas para el monitorreo de la perdida, estas métricas presentarón valores muy bajo, valores práctica mente de cero. 
+Los resultados de haber aplicado nuestro modelo de red neuronal perceptrón multicapa para regrsión, podemos decir que son resultados satisfactorios, dado que el observar las métricas para el monitoreo de la perdida, estas métricas presentarón valores muy bajos, valores práctica mente de cero. 
