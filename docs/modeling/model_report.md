@@ -1,34 +1,42 @@
 # Final Model Report
-_Report describing the final model to be delivered - typically comprised of one or more of the models built during the life of the project_
 
-## Analytic Approach
-* What is target definition
-* What are inputs (description)
-* What kind of model was built?
+El modelo final que se reporta es un perceptrón multicapa para regresión, el cuál  tiene las siguientes características:
 
-## Solution Description
-* Simple solution architecture (Data sources, solution components, data flow)
-* What is output?
+El perceptrón multicapa esta compuesto por por una capa de entrada, una capa de salida y n capas ocultas entremedias.
+
+En el perceptrón multicapa se pueden diferenciar una 2 fases:
+
+Propagación en la que se calcula el resultado de salida de la red desde los valores de entrada hacia delante.
+Aprendizaje en la que los errores obtenidos a la salida del perceptrón se van propagando hacia atrás (backpropagation) con el objetivo de modificar los pesos de las conexiones para que el valor estimado de la red se asemeje cada vez más al real, este aproximación se realiza mediante la función gradriente del error.
+
+Para este caso las entradas para este modelo son variables que ayudaran a predecir el precio promedio del aguacate, que era lo que se buscaba al aplicar, este tipo de red neuronal.
 
 ## Data
-* Source
-* Data Schema
-* Sampling
-* Selection (dates, segments)
-* Stats (counts)
-
+Los datos que se reportan para la realización del proyecto provienen del   escaneo de minorista semanales entre los años 2015 a 2018 para el volumen minorista nacional (unidades) y el precio. Los datos de escaneo minorista provienen directamente de las cajas registradoras de los minoristas en función de las ventas minoristas reales de aguacates Hass.
 ## Features
-* List of raw and derived features 
-* Importance ranking.
+
+Las carácterísticas princnipales que se usraón para poder realizar la tarea de predicción con el perceptrón multicapa para regresión, fueron:
+Date: La fecha de la observación
+AveragePrice: Precio promedio de un solo aguacate
+Total Volume: Número total de aguacates vendidos
+4046: Número total de aguacates vendidos con PLU 4046
+4225: Número total de aguacates vendidos con PLU 4225
+4770: Número total de aguacates vendidos con PLU 4770
+type: Convencional u orgánico
+year: Año
+Region: Ciudad o región de la observación
+Los códigos de búsqueda de productos (PLU) de la tabla son solo para aguacates Hass, otra clase de aguacates no fueron consignados en esta tabla.
+Las características Total Bags, Small Bags, Large Bags y Xlarge Bags corresponde al número de bolsas de aguacates vendidos en la fecha correspondiente.
 
 ## Algorithm
-* Description or images of data flow graph
-  * if AzureML, link to:
-    * Training experiment
-    * Scoring workflow
-* What learner(s) were used?
-* Learner hyper-parameters
+La tare que se pretendía realizar pertence al aprendizaje supervisado. Se deseaba como bien se ha mencionado antes, predecir a partir de algunas características de interés, ya mencionadas, el precio promedio del aguacate.  El algorítmo que se aplicó fue:
+model = MLPRegressor(solver = 'lbfgs',
+                   activation = 'relu',
+                   hidden_layer_sizes=(5,10, 25, 100,200),
+                   max_iter=3000,                   
+                   n_iter_no_change=100, 
+                   validation_fraction=0.2,               
+                   random_state=1234)
 
 ## Results
-* ROC/Lift charts, AUC, R^2, MAPE as appropriate
-* Performance graphs for parameters sweeps if applicable
+Los resultados de haber aplicado nuestro modelo de red neuronal perceptrón multicapa para regrsión, podemos decir que son resultados satisfactorios, dado que el observar las métricas para el monitorreo de la perdida, estas métricas presentarón valores muy bajo, valores práctica mente de cero. 
