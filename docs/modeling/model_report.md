@@ -15,27 +15,43 @@ Los datos que se reportan para la realización del proyecto provienen del  escan
 ## Features
 
 Las carácterísticas princnipales que se usraón para poder realizar la tarea de predicción con el perceptrón multicapa para regresión, fueron:
-Date: La fecha de la observación
-AveragePrice: Precio promedio de un solo aguacate
-Total Volume: Número total de aguacates vendidos
-4046: Número total de aguacates vendidos con PLU 4046
-4225: Número total de aguacates vendidos con PLU 4225
-4770: Número total de aguacates vendidos con PLU 4770
-type: Convencional u orgánico
-year: Año
-Region: Ciudad o región de la observación
+- Date: La fecha de la observación.
+
+- AveragePrice: Precio promedio de un solo aguacate.
+
+- Total Volume: Número total de aguacates vendidos.
+
+- 4046: Número total de aguacates vendidos con PLU 4046.
+
+- 4225: Número total de aguacates vendidos con PLU 4225.
+
+- 4770: Número total de aguacates vendidos con PLU 4770.
+
+- type: Convencional u orgánico.
+
+- year: Año.
+
+- Region: Ciudad o región de la observación.
+
 Los códigos de búsqueda de productos (PLU) de la tabla son solo para aguacates Hass, otra clase de aguacates no fueron consignados en esta tabla.
 Las características Total Bags, Small Bags, Large Bags y Xlarge Bags corresponde al número de bolsas de aguacates vendidos en la fecha correspondiente.
 
 ## Algorithm
 La tarea que se pretendía realizar pertence al aprendizaje supervisado. Se deseaba como bien se ha mencionado antes, predecir a partir de algunas características de interés, ya mencionadas, el precio promedio del aguacate.  El algorítmo que se aplicó usando python fue:
+
 model = MLPRegressor(solver = 'lbfgs',
-                   activation = 'relu',
-                   hidden_layer_sizes=(5,10, 25, 100,200),
-                   max_iter=3000,                   
-                   n_iter_no_change=100, 
-                   validation_fraction=0.2,               
-                   random_state=1234)
+
+activation = 'relu',
+
+hidden_layer_sizes=(5,10, 25, 100,200),
+
+max_iter=3000,                   
+
+n_iter_no_change=100, 
+
+validation_fraction=0.2,               
+
+random_state=1234)
 
 ## Results
 Los resultados de haber aplicado nuestro modelo de red neuronal perceptrón multicapa para regrsión, podemos decir que son resultados satisfactorios, dado que el observar las métricas para el monitoreo de la perdida, estas métricas presentarón valores muy bajos, valores práctica mente de cero. 
